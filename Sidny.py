@@ -1,3 +1,4 @@
+Sure, I Do Need You. (SIDNY)
 import pyttsx3 #importing text-to-speech package
 import datetime #importing date and time package
 import speech_recognition as sr #importing google speech recognition services as 'sr' for convenience 
@@ -46,7 +47,7 @@ def takeCommand():
         return"None"
     return query
 
-# sender_email =  "saiankithsharma@gmail.com"
+# sender_email =  "s****a@gmail.com"
 # receiver_email = []
 # subject = ''
 # sender_password = input(f'Enter password for {sender_email}:n') 
@@ -71,7 +72,7 @@ if __name__ == "__main__":
             speak("Accessing google homepage sir.")
 
         elif 'college dashboard' in query:
-            webbrowser.open('sssinspires.com')
+            webbrowser.open('lms.sssihl.edu.in')
             speak("Here are your undergraduate courses sir.") 
 
         elif 'courses' in query:
@@ -127,7 +128,7 @@ if __name__ == "__main__":
     
         '''elif 'send email' in query:
             try:
-                yag = yagmail.SMTP(user = 'saiankithsharma@gmail.com', password = sender_password)
+                yag = yagmail.SMTP(user = 's***a@gmail.com', password = sender_password)
                 content = [
                    'write content, add paths to images/videos/content']
 
